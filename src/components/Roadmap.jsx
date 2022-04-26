@@ -157,9 +157,7 @@ const Roadmap = () => {
                       />
                     </div>
 
-                    <h3>
-                    Tentacular Dashboard
-                    </h3>
+                    <h3>Tentacular Dashboard</h3>
                   </div>
                   <div className="item">
                     <div className="img">
@@ -210,7 +208,7 @@ const Roadmap = () => {
                     </div>
 
                     <h3>
-                    Berry Shop for Collaborations, Merchandise, etc.
+                      Berry Shop for Collaborations, Merchandise, etc.
                       <a
                         className="d-block"
                         href="https://medium.com/@tentacularnft/tentacular-berry-juicer-b2a5ccbf5c0b"
@@ -227,7 +225,9 @@ const Roadmap = () => {
                       />
                     </div>
 
-                    <h3>Metaverse Integration and Planet Berrylius in Substrata</h3>
+                    <h3>
+                      Metaverse Integration and Planet Berrylius in Substrata
+                    </h3>
                   </div>
                   <div className="item">
                     <div className="img">
@@ -396,36 +396,29 @@ const Roadmap = () => {
                     <h3>Website Launch</h3>
                     <h3>Virtual Spatial Gallery</h3>
                     <h3>
-                    Tentacular Mint  <br />
-                    and Reveal
+                      Tentacular Mint <br />
+                      and Reveal
                     </h3>
                     <h3>
-                    Fund Community and <br />  Marketing Wallets 
+                      Fund Community and <br /> Marketing Wallets
                     </h3>
-                    <h3>
-                    Tentacular Dashboard 
-                    </h3>
+                    <h3>Tentacular Dashboard</h3>
                     <h3>Farming (Staking) Launch</h3>
                     <h3 className="text-end">
-                    Berry Juicer Launch 
-                    </h3>
-                    <h3>
-                    Cave Land Airdrop 
-                    </h3>
-                    <h3 className="text-end">
-                    Upgrade your Tentacular 
-                    </h3>
-                    <h3>
-                    Berry Shop for Collaborations, Merchandise, etc. 
+                      Berry Juicer Launch
                       <h3>
-                        <a href="https://medium.com/@tentacularnft/tentacular-berry-juicer-b2a5ccbf5c0b">
+                        {/* <a href="https://medium.com/@tentacularnft/tentacular-berry-juicer-b2a5ccbf5c0b"> */}
+                        <a href="https://tentacular.medium.com/tentacular-berry-juicer-b2a5ccbf5c0b">
                           View Mechanics
                         </a>
                       </h3>
                     </h3>
+                    <h3>Cave Land Airdrop</h3>
+                    <h3 className="text-end">Upgrade your Tentacular</h3>
+                    <h3>Berry Shop for Collaborations, Merchandise, etc.</h3>
                     <h3 className="text-end">
-                    Metaverse Integration and <br />
-                    Planet Berrylius in Substrata 
+                      Metaverse Integration and <br />
+                      Planet Berrylius in Substrata
                     </h3>
                     <h3>Endangermint</h3>
                   </div>
@@ -478,34 +471,44 @@ const Roadmap = () => {
               },
               {
                 question: "How soon after mint will farming be available?",
-                answer: "The Tentacular Dashboard and Farming (Staking) will launch approximately 5 days (TBD) after the reveal is complete.",
+                answer:
+                  "The Tentacular Dashboard and Farming (Staking) will launch approximately 5 days (TBD) after the reveal is complete.",
               },
               {
-                question: "Will farming affect the Tentacular stats on Opensea?",
-                answer: "No, our farming function updates your 'bonded' (staked) Tentacular token. Unlike traditional staking methods, your Tentacular stays in your wallet (non-custodial) and staking does not affect holder count on Opensea.",
+                question:
+                  "Will farming affect the Tentacular stats on Opensea?",
+                answer:
+                  "No, our farming function updates your 'bonded' (staked) Tentacular token. Unlike traditional staking methods, your Tentacular stays in your wallet (non-custodial) and staking does not affect holder count on Opensea.",
               },
               {
                 question: "What's so good about this new staking method?",
-                answer: "When a Tentacular is farming, it cannot be transferred, therefore some of the common hacks we have seeing can be prevented.",
+                answer:
+                  "When a Tentacular is farming, it cannot be transferred, therefore some of the common hacks we have seeing can be prevented.",
               },
 
               {
-                question: "Can I sell or list my Tentacular while it's farming?",
-                answer: "Technically you can list your Tentacular on Opensea, however, a farming Tentacular is locked and cannot be transferred, therefore it cannot be bought and sold. Your listed Tentacular will show a 'farming' watermark in the image and any attempts to purchase it will result in a failed transaction for the buyer.",
+                question:
+                  "Can I sell or list my Tentacular while it's farming?",
+                answer:
+                  "Technically you can list your Tentacular on Opensea, however, a farming Tentacular is locked and cannot be transferred, therefore it cannot be bought and sold. Your listed Tentacular will show a 'farming' watermark in the image and any attempts to purchase it will result in a failed transaction for the buyer.",
               },
 
               {
                 question: "Are there any opportunities to join the team?",
-                answer: "Yes, please join our Discord server to apply for a position on the team.",
+                answer:
+                  "Yes, please join our Discord server to apply for a position on the team.",
               },
 
               {
-                question: "Is there a secondary market royalty and how will the funds be used?",
-                answer: "Yes, there is a secondary market royalty of 5%. The funds will be used for further development, virtual and IRL events, metaverse land acquisition, and community rewards eg. participants of the Berry Juicer.",
+                question:
+                  "Is there a secondary market royalty and how will the funds be used?",
+                answer:
+                  "Yes, there is a secondary market royalty of 5%. The funds will be used for further development, virtual and IRL events, metaverse land acquisition, and community rewards eg. participants of the Berry Juicer.",
               },
 
               {
-                question: "Will the smart contract be audited by a trusted and reputable third-party before launch to ensure fairness and security?",
+                question:
+                  "Will the smart contract be audited by a trusted and reputable third-party before launch to ensure fairness and security?",
                 answer: "Yes.",
               },
 
@@ -516,7 +519,8 @@ const Roadmap = () => {
 
               {
                 question: "Will Tentacular be revealed right away?",
-                answer: "All Tentacular will be revealed approximately 24 hours after the Public sale is complete.",
+                answer:
+                  "All Tentacular will be revealed approximately 24 hours after the Public sale is complete.",
               },
             ].map((el, idx) => {
               return <FaqItem {...el} key={"faq-" + idx} />;
